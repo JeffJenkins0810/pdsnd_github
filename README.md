@@ -10,7 +10,8 @@ BikeShare
 Allows user to explore BikeShare data.
 
 ### Files used
-bikeshare_final.py, README.md
+bikeshare_final.py 
+README.md
 
 ### Credits
 pandas.pydata.org

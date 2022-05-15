@@ -7,7 +7,7 @@
 BikeShare
 
 ### Description
-Allows user to explore BikeShare data
+Allows user to explore BikeShare data.
 
 ### Files used
 bikeshare_final.py, README.md

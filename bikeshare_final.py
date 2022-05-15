@@ -83,7 +83,7 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
 
-
+    # allows user to view more data
     view_data = str(input('\nWould you like to view 5 rows of individual '
     'trip data? Enter yes or no\n'))
     start_loc = 0
@@ -202,7 +202,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df,city)
-
+    # allows user to restart or end program    
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
